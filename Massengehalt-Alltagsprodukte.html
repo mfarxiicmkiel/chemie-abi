@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                Chemie            </div>
+            <ul>
+                <li><a href="chemie.html">Kerncurriculum</a></li>
+                <li><a href="Abituraufgaben.html">Abituraufgaben</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <header class="überschrift">
+        <div>
+            <p>Massengehalt von Säuren in Alltagsprodukten</p>
+        </div>
+    </header>
+    <div class="themen-container">
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>Grundprinzip</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <div>1. Entnehmen einer bestimmten Menge eines säurehaltigen Alltagsprodukts&rarr; Probelösung </div>
+                <div>2. Titration mit Natronlauge</div>
+                <div>3. Bestimmen der Stoffmenge der Säure </div>
+                <div>5. Berechnung der Masse der Säure und Berechnung des Massengehalts:</div>
+                <img src="Bilder/Massengehalt.png" alt="">
+            </div>
+        </div>
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>Tipps</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <ul>
+                    <li>Bei mehrprotonigen Säure herscht am ÄP ein anderes Stoffmengenverhältnis: <a href="mehrprotonige-Säuren.html" class="link">mehrprotonige Säuren</a></li>
+                    <li>Notieren der korrekten Einheiten</li>
+                    <li>Formeln für Masse und Stoffmenge richtig umstellen</li>
+                    <li>Massengehalt &#8800; Konzentration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Abituraufgaben">
+        <div><p>Aufgaben</p></div>
+        <img src="Bilder/massengehalt0.5.png" class="Abituraufgaben-bilder">
+        <img src="Bilder/massengehalt1.png" class="Abituraufgaben-bilder">
+        <img src="Bilder/massengehalt2.png" class="Abituraufgaben-bilder">
+        <details class="lösung-box">
+            <summary>Lösung anzeigen</summary>
+            <img src="Bilder/massengehalt3.png" class="Abituraufgaben-bilder">
+            <img src="Bilder/massengehalt4.png" class="Abituraufgaben-bilder">
+        </details>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

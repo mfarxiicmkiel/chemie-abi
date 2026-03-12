@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                Chemie            </div>
+            <ul>
+                <li><a href="chemie.html">Kerncurriculum</a></li>
+                <li><a href="Abituraufgaben.html">Abituraufgaben</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <header class="überschrift">
+        <div>
+            <p>Stoffmengenkonzentrationen saurer</p><p>/alkalischer Probelösungen</p>
+        </div>
+    </header>
+    <div class="themen-container">
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>Titration</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <div>Die Stoffmengenkonzentrationen einer Probelösungen lässt sich durch die <b>Titration</b> bestimmen. Dabei wird eine Maßlösung(wässrige Lösung einer <b>starken</b>(vollständig protolysierten) Säure/Base,) bis zum Erreichen des Äquivalenzpunkts hinzugegeben. An diesem ÄP gilt bei gleichtprotonigen Säuren/Basen durch die vollständige <b>Neutralisation</b>: n(Base)=n(Säure). Da V(Probelösung), V(Maßlösung) und c(Maßlösung) bekannt sind, lässt sich c(Probelösung) berechnen:</div>
+                <img src="Bilder/Probelösung1.png" alt="">
+            </div>
+        </div>
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>Beispiel</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <div>Bei einer Titration von 35mL salzsaurer Lösung werden bis zum ÄP 20mL der Maßlösung(Natronlauge, c=0,1 mol/L) verbreucht.</div>
+                <div>1. Formulieren der ablaufenden Neutralisationsreaktion: </div>
+                <img src="Bilder/Probelösung2.png" alt="">
+                <div>2. Formulieren/Umstellen der Gleichung n(Säure)=n(Base):</div>
+                <img src="Bilder/Probelösung3.png" alt="">
+                
+            </div>
+        </div>
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>   Beispiel Fortsetzung</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <div>3. Ausrechenen der unbekannten Konzentration:</div>
+                <img src="Bilder/Probelösung4.png" alt="">
+            </div>
+        </div>
+        <div class="themen-box" onclick="toggleCard(this)">
+            <div class="cover">
+                <div>
+                    <p>Tipps</p>
+                </div>
+            </div>
+            <div class="inhalt">
+                <ul>
+                    <li>Bei mehrprotonigen Säuren muss das <b>Stoffmengenverhältnis</b> beachtet werden &#10132 <a href="mehrprotonige-Säuren.html" class="link">klicken</a></li>
+                    <li>Einheiten korrekt umrechnen und notieren</li>
+                    <li>Als Maßlösung wird eine vollständig dissoziierte Säure/Base verwendet. Nur so kann von der verbrauchten Stoffmenge der Maßlösung auf die der Probelösung geschlossen werden. So können auch schwache/mittelstarke Probelösungen, die nicht vollständig dissoziiert sind vollständig neutralisiert werden, da sich das GGW durch die Neutralisationsreaktion auf die Seite der Produkte verschiebt.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Abituraufgaben">
+        <div><p>Aufgaben</p></div>
+        <img src="Bilder/Titration1.png" class="Abituraufgaben-bilder">
+        <details class="lösung-box">
+            <summary>Lösung anzeigen</summary>
+            <img src="Bilder/Titration2.png" class="Abituraufgaben-bilder">
+        </details>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
